@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ArenaGear | Sports Equipment & Merchandise</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="navbar container" aria-label="Primary navigation">
+      <a class="brand" href="#">
+        <span class="brand-mark">AG</span>
+        <span>ArenaGear</span>
+      </a>
+
+      <input class="nav-toggle" type="checkbox" id="nav-toggle" aria-label="Toggle navigation" />
+      <label class="hamburger" for="nav-toggle" aria-hidden="true">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+
+      <div class="nav-menu">
+        <a href="#featured">Equipment</a>
+        <a href="#categories">Merchandise</a>
+        <a href="#deals">Deals</a>
+        <a href="#support">Support</a>
+      </div>
+
+      <div class="nav-actions">
+        <a class="icon-button" href="#" aria-label="Search products">Search</a>
+        <a class="cart-button" href="#" aria-label="View shopping cart">Cart <span>3</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content container">
+        <div class="hero-copy">
+          <p class="eyebrow">Performance gear for every game</p>
+          <h1>Shop sports equipment and fan merchandise in one place.</h1>
+          <p class="hero-text">
+            Discover durable training essentials, match-ready gear, and official-style merchandise designed for athletes, teams, and fans.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#featured">Shop Collection</a>
+            <a class="button button-secondary" href="#categories">Browse Categories</a>
+          </div>
+        </div>
+
+        <div class="hero-panel" aria-label="Featured promotion">
+          <div class="promo-card">
+            <span class="discount">30% Off</span>
+            <h2>Training Season Sale</h2>
+            <p>Upgrade your kit with bats, shoes, jerseys, gloves, and gym essentials.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="categories">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Shop by sport</p>
+          <h2>Popular Categories</h2>
+        </div>
+        <a class="text-link" href="#">View all</a>
+      </div>
+
+      <div class="category-grid">
+        <article class="category-card">
+          <span class="category-icon">FB</span>
+          <h3>Football</h3>
+          <p>Balls, boots, shin guards, kits</p>
+        </article>
+        <article class="category-card">
+          <span class="category-icon">CR</span>
+          <h3>Cricket</h3>
+          <p>Bats, gloves, pads, helmets</p>
+        </article>
+        <article class="category-card">
+          <span class="category-icon">GY</span>
+          <h3>Fitness</h3>
+          <p>Dumbbells, bands, mats, bottles</p>
+        </article>
+        <article class="category-card">
+          <span class="category-icon">MR</span>
+          <h3>Merchandise</h3>
+          <p>Jerseys, caps, bags, fanwear</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="featured">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Top picks</p>
+            <h2>Featured Products</h2>
+          </div>
+          <div class="filter-tabs" aria-label="Product filters">
+            <button class="active" type="button">All</button>
+            <button type="button">Equipment</button>
+            <button type="button">Merch</button>
+          </div>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <div class="product-media product-football">
+              <span class="badge">Best Seller</span>
+            </div>
+            <div class="product-info">
+              <div>
+                <p class="product-category">Football</p>
+                <h3>Pro Strike Football</h3>
+              </div>
+              <p class="rating">4.8 ★</p>
+            </div>
+            <p class="product-description">Textured grip, match-weight build, and high-visibility panels.</p>
+            <div class="product-footer">
+              <span class="price">$34.99</span>
+              <button class="add-button" type="button">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media product-shoe">
+              <span class="badge">New</span>
+            </div>
+            <div class="product-info">
+              <div>
+                <p class="product-category">Running</p>
+                <h3>Velocity Runner Shoes</h3>
+              </div>
+              <p class="rating">4.7 ★</p>
+            </div>
+            <p class="product-description">Lightweight cushioning for daily training and fast sessions.</p>
+            <div class="product-footer">
+              <span class="price">$89.00</span>
+              <button class="add-button" type="button">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media product-jersey">
+              <span class="badge">Fan Pick</span>
+            </div>
+            <div class="product-info">
+              <div>
+                <p class="product-category">Merchandise</p>
+                <h3>Club Home Jersey</h3>
+              </div>
+              <p class="rating">4.9 ★</p>
+            </div>
+            <p class="product-description">Breathable fan jersey with stitched crest and premium finish.</p>
+            <div class="product-footer">
+              <span class="price">$49.50</span>
+              <button class="add-button" type="button">Add to Cart</button>
+            </div>
+          </article>
+
+          <article class="product-card">
+            <div class="product-media product-cricket">
+              <span class="badge">Limited</span>
+            </div>
+            <div class="product-info">
+              <div>
+                <p class="product-category">Cricket</p>
+                <h3>Willow Power Bat</h3>
+              </div>
+              <p class="rating">4.6 ★</p>
+            </div>
+            <p class="product-description">Balanced pickup, thick edges, and a clean striking profile.</p>
+            <div class="product-footer">
+              <span class="price">$119.99</span>
+              <button class="add-button" type="button">Add to Cart</button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="deals">
+      <div class="deal-banner">
+        <div>
+          <p class="eyebrow">Bundle and save</p>
+          <h2>Build your match-day kit</h2>
+          <p>Get extra savings when you combine equipment, shoes, and official-style team merchandise.</p>
+        </div>
+        <a class="button button-primary" href="#">Explore Deals</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" id="support">
+    <div class="footer-inner container">
+      <p>&copy; 2026 ArenaGear. Built for athletes and fans.</p>
+      <div>
+        <a href="#">Shipping</a>
+        <a href="#">Returns</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
